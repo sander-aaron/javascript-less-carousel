@@ -5,13 +5,16 @@
   <title>Java Carousel</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
   <section class="max-length">
     <div class="carousel">
+      <input class="carousel-input" type="radio" name="mammals" id="arsinoitherium-control" checked>
+      <input class="carousel-input" type="radio" name="mammals" id="elasmotherium-control">
+      <input class="carousel-input" type="radio" name="mammals" id="glyptodon-control">
+      <input class="carousel-input" type="radio" name="mammals" id="megatherium-control">
       <div class="carousel-inner relative">
         <div class="carouself-items">
           <div class="carouself-item embed embed-golder" id="arsinoitherium">
@@ -27,6 +30,20 @@
             <img class="embed-item" src="images/megatherium" alt="">
           </div>
         </div>
+        <ul class="carousel-control list-group-inline pin-cb w-1 text-center push-0 island-1-2">
+          <li>
+            <label class="carousel-btn i-18 ir" for="arsinoitherium-control">Arsinoitherium</label>
+          </li>
+          <li>
+            <label class="carousel-btn i-18 ir" for="elasmotherium-control">Elasmotherium</label>
+          </li>
+          <li>
+            <label class="carousel-btn i-18 ir" for="glyptodon-control">Glyptodon</label>
+          </li>
+          <li>
+            <label class="carousel-btn i-18 ir" for="megatherium-control">Megatherium</label>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
